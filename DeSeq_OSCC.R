@@ -1,3 +1,6 @@
+#Author: Tanvi Nandani
+#RNA-seq differential expression and functional enrichment analysis comparing OSCC,premalignant lesions (PML), and control samples.
+
 library(DESeq2)
 library(ggplot2)
 library(dplyr)
