@@ -1,7 +1,6 @@
 #!/bin/bash 
 #SBATCH --job-name=removeAdapter
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=24qg15@queensu.ca
 #SBATCH --partition=standard
 #SBATCH -c 2
 #SBATCH --mem=128G             
