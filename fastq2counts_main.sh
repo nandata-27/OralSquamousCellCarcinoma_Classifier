@@ -1,7 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=Star_Align
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=24qg15@queensu.ca
 #SBATCH --partition=standard
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=128G              
