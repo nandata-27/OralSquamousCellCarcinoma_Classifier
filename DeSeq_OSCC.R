@@ -59,7 +59,7 @@ run_go_enrichment <- function(deg_df, comparison_name) {
                         pvalueCutoff = 0.05,
                         readable     = TRUE)
   
-  # Save and plot
+  # plot
   out_path <- paste0("~/Desktop/MBI/PATH828/Project/spreadsheets/", comparison_name, "_go_enrichment.csv")
   write.csv(as.data.frame(go_result), out_path)
   print(dotplot(go_result, showCategory = 10, title = paste("GO Enrichment:", comparison_name)))
